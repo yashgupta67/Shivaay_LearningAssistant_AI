@@ -3,8 +3,8 @@ from pylatexenc.latex2text import LatexNodes2Text
 import requests
 
 # Shivaay AI API Details
-API_URL = "https://api_v2.futurixai.com/api/lara/v1/completion"
-API_KEY = "67a117535f368ed7932bfeda"
+API_URL = st.secrets["API_URL"]
+API_KEY = st.screts["API_KEY"]
 
 # Initialize session state if not already initialized
 if 'history' not in st.session_state:
