@@ -4,7 +4,7 @@ import requests
 
 # Shivaay AI API Details
 API_URL = st.secrets["API_URL"]
-API_KEY = st.screts["API_KEY"]
+API_KEY = st.secrets["API_KEY"]
 
 # Initialize session state if not already initialized
 if 'history' not in st.session_state:
